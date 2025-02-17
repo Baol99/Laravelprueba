@@ -1,0 +1,34 @@
+PRUEBA DE CONOCIMIENTOS
+
+¿Qué es la inmutabilidad en la programación funcional y cómo podría aplicarse en PHP o JavaScript?
+	R=La inmutabilidad como es nombre dice, es cierta información, variables u objeto que no se puede modificar una vez creado,
+	para aplicarla se puede hacer de varias maneras y la mas común es por variables protegidos o privados al cual una vez
+	que asignemos un valor no lo podemos modificar por afuera (a vista del cliente), la única manera de acceder a ellos es desde adentro.
+	
+	La otra manera es usando lo anterior pero en la creación de objetos que viene siendo POO, donde podemos crear varias variables y 
+	solo en el lo podemos usar, si creamos otro este tendrá otros valores y no podrá acceder a las creadas anteriormente y para ello 
+	usamos la herencia para acceder a esos atributos. 
+
+
+¿Qué ventajas tiene la inyección de dependencias frente a la creación de objetos dentro de una clase?
+	R= Nuestra clase tendrá definido ya ciertas especificaciones pero si nuestro objeto necesita otras dependencias con la ayuda
+	 de la inyección de dependencias sin depender de una clase padre, le podemos añadir mas atributos por dependencias o usando 
+	funciones para hacer ciertos procesos que no se han asignado dentro la clase anteriormente.
+
+
+¿Qué es un Patrón de Diseño y por qué se utilizan en el desarrollo de software?
+	R= La creación de un diseño es el cual nos vamos a basar en la creación del software ya definido, en otras palabras tendremos un
+	camino ya trazado por el cual empezar a construirlo como había mencionado e ir de acuerdo al plan establecido en la ruta, bloques, 
+	etc. tomándolo como paradas si lo vemos en forma de camino.
+	
+	este camino o patrón tiene establecido todas nuestras ideas ya puestos en el y como queremos que funcione.
+
+
+¿Por qué es importante usar CSRF tokens en formularios?
+	R= Para proteger la información que enviamos de nuestro sitio o aplicación a nuestro servidor.
+	esta información no llegara tal y como escribimos sino como un código que contiene numero, letras y signos en el.
+	
+	ejemplo: podemos hacer un formulario de login donde con nuestro usuario y contraseña crearemos un token,
+	y por una validación teniendo en nuestra base de datos verificaremos que el token creado sea la misma que se crea al iniciar 	sesión.
+
+
